@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>org.example.helper1</id>
+    <name>asdasdas</name>
+    <vendor email="asdas@yourcompany.com" url="http://www.asdas.com">asdasd</vendor>
+
+    <description>ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="GetText" class="com.fp.codetemplate.action.GetTextAction" text="GetText" description="GetText">
+            <add-to-group group-id="GenerateGroup" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>
